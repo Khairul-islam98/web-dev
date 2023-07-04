@@ -11,15 +11,107 @@
     <link rel="shortcut icon" href="icon.jpg" type="image/x-icon"> 
     <link rel="stylesheet" href="style.css">
     <title>html tutorial</title>
-    <style>
-        h1 {
-            color: #282fac;
-        }
-    </style>
 </head>
 <body>
-    <h1>this is my learning data</h1>
-    <br>
-    <p>khairul islam</p>
+   <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="mypic.jpg" 
+                    alt="This is my pic"
+                    class="header__logo-img"
+                    >
+                </div>
+                <span class="header__logo-sub">Khairul islam</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="./index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#about" class="header__link"> About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#projects" class="header__link"> Projects </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                   <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" 
+                   class="header__main-ham-menu"
+                   />
+                   <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+                   class="header__main-ham-menu-close d-none"
+                   />
+                </div>
+            </div>
+        </div>
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#projects"> Projects</a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+   </header>
+   <section class="home-hero">
+    <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My Name is Khairul Islam</h1>
+        <div class="home-hero__info">
+            <p class="text-primary">
+                This is my website create it very simple website not particular my mind.
+                Some template create my thing latest technology best website for me
+                complex create
+            </p>
+        </div>
+        <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+    </div>
+    <div class="home-hero__socials">
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon"/>
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon"/>
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon"/>
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon"/>
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+                <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon">
+            </a>
+        </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+    </div>
+   </section>
 </body>
 </html>
